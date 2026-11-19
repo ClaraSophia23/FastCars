@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro de Carros - Clara Sophia</title>
+</head>
+<body>
+    <header>
+        <h1>Cadastro de Carros</h1>
+        <p>Aluna: Clara Sophia Farias da Silva Novais</p>
+    </header>
+
+    <form id="formCarro">
+        <input type="text" id="modelo" placeholder="Modelo (Ex: Civic)" required>
+        <input type="text" id="marca" placeholder="Marca (Ex: Honda)" required>
+        <button id="btnSalvar" type="submit">Cadastrar</button>
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Posição</th>
+                <th>Modelo</th>
+                <th>Marca</th>
+            </tr>
+        </thead>
+        <tbody id="corpoTabela"></tbody>
+    </table>
+
+    <script src="main.js"></script>
+</body>
+</html>
